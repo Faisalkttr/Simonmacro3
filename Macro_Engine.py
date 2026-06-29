@@ -223,4 +223,3 @@ df = pd.DataFrame.from_dict(allocation, orient="index", columns=["Weight"])
 st.dataframe(df)
 
 st.bar_chart(df)
-``
