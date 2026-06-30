@@ -259,5 +259,5 @@ with st.expander("View Structural Baseload Target Reference (Allocations.jpeg)[c
     *   **ENERGY Layer 1 (Monetary Royalties):** FNV, WPM (Continuous accumulation treated as Gold extension)[cite: 1].
     
     ### **Execution Guardrail Principle**
-    > **Open system $\rightarrow$ Execute instructions $\rightarrow$ Close system. Do not override, do not second-guess, do not react emotionally[cite: 1].**
+    > **Open system -> Execute instructions -> Close system. Do not override, do not second-guess, do not react emotionally[cite: 1].**
     """)
