@@ -82,7 +82,7 @@ df_liq = pd.concat([fed, rrp, tga], axis=1)
 df_liq.columns = ["fed", "rrp", "tga"]
 df_liq = df_liq.ffill().dropna()
 
-net_liquidity = df_liq["fed"] - df_liq["rrp"] - df_liq["tga"]
+net_liquidity = df_liq["fed"] - (df_liq["rrp"] * 1000) - df_liq["tga"]
 
 # Smoothed Liquidity Impulse
 liq_impulse_raw = net_liquidity.pct_change(30)
