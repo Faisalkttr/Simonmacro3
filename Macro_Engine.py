@@ -253,8 +253,8 @@ st.warning(f"**Operational Instructions:** {exec_rules['ACTION']}")
 with st.expander("View Structural Baseload Target Reference (Allocations.jpeg)[cite: 1]"):
     st.markdown("""
     ### **Permanent Structural Assets (Deploy Constantly regardless of Phase State)**
-    *   **BTC Layer:** 25% Target $\rightarrow$ Route directly to Cold Wallet[cite: 1].
-    *   **Gold Layer:** 10% Target $\rightarrow$ Direct physical accumulation[cite: 1].
+    *   **BTC Layer:** 25% Target -> Route directly to Cold Wallet[cite: 1].
+    *   **Gold Layer:** 10% Target -> Direct physical accumulation[cite: 1].
     *   **INFRA Layer 1 (Hard Assets):** TPL, ADPORTS, ICTEY (Continuous Monthly Deployment. Never Pause)[cite: 1].
     *   **ENERGY Layer 1 (Monetary Royalties):** FNV, WPM (Continuous accumulation treated as Gold extension)[cite: 1].
     
